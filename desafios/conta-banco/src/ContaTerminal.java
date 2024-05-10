@@ -1,9 +1,7 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal {
   public static void main(String[] args) {
-    Locale.setDefault(new Locale("pt","BR"));
     Scanner scanner = new Scanner(System.in);
 
     System.out.print("Por favor, digite o número da conta. Ex: 12646: ");
