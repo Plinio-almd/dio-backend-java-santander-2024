@@ -6,11 +6,11 @@ public class Smartphone implements MusicPlayer, Dialer, WebBrowser{
 
     private Scanner sc = new Scanner(System.in);
 
-    public String getPhoneNumber() {
+    private String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber() {
+    private void setPhoneNumber() {
         this.phoneNumber = sc.next();
     }
 
